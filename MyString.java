@@ -14,7 +14,7 @@ public class MyString {
         // System.out.println(spacedString("silent"));
         // System.out.println(spacedString(hello));
         // System.out.println(randomStringOfLetters(4));
-        System.out.println(remove("meet","committee"));
+        System.out.println(remove("committee", "meet"));
         //// Put your other tests here.
     }
 
@@ -119,7 +119,7 @@ public class MyString {
      * @param str2 - a string
      * @return a string consisting of str1 minus all the characters of str2
      */
-    public static String remove(String str1, String str2) {
+    public static String remove(String str2, String str1) {
         for (int i = 0; i < str1.length(); i++){
             if (str2.length() == 0){
                 return str2;
