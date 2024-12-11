@@ -51,7 +51,7 @@ public class Scrabble {
 		if (word == ""){
 			return false;
 		}
-		for (int i = 0; i < DICTIONARY.length; i++){
+		for (int i = 0; i < MAX_NUMBER_OF_WORDS; i++){
 			if (DICTIONARY[i].equals(word)){
 				return true;
 			}
